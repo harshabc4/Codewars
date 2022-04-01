@@ -8,6 +8,21 @@
 // For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
 
 
+// Mine
+function countPositivesSumNegatives(input) {
+  let finalArr = []
+if(input == null || input.length === 0){
+  return finalArr
+}else{
+  let countPositives = input.filter(x => x >0)
+  finalArr.unshift(countPositives.length)
+  let negArray = input.filter (x => x < 0)
+  let sumNegatives = negArray.reduce((acc, c) => acc + c, 0)
+  finalArr.push(sumNegatives)
+  return finalArr;
+  }
+}
+
 // Top Rated
 
 function countPositivesSumNegatives(input) {
