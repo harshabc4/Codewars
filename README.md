@@ -1,4 +1,4 @@
-# Codewars
+# Codewars: <a target="_blank" href="https://www.codewars.com/users/harshabc4" >My Profile</a> 
 I strive to do at least one codewar a day.  If I miss a day, I make it up as noted by "makeup" in the filename.  I include the top rated solution if it differs from mine for future review/reference.
 
 
